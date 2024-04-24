@@ -1,0 +1,25 @@
+.Summary{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    background-color: white;
+    width: 80%;
+    padding: 0.3rem;
+    margin-bottom: 1.6rem;
+}
+.span{
+    display: flex;
+    gap: 8rem;
+}
+
+.span>p>span>img{
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Summary{
+        width: 45%;
+        padding: 0.5rem;
+    }
+}

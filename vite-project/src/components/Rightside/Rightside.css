@@ -1,0 +1,17 @@
+.Rightside{
+    background: #F9F8FD;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 1rem; */
+    width: 95%;
+    margin-left: 0.5rem;
+
+
+}
+
+
+.left{
+    margin-left: 10rem;
+    font-size: 12px;
+    color: rgb(53, 53, 206);
+}

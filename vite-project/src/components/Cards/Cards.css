@@ -1,0 +1,51 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.row{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.align>span{
+    background: #F1F1FB;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+.Cards{
+    display: flex;
+    gap: 10px;
+}
+.parentContainer{
+    width: 50%;
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .Cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .parentContainer{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    .parentContainer{
+        width: 30%;
+    }
+}
