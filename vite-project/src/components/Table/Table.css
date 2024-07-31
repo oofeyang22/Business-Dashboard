@@ -5,7 +5,9 @@
 .MuiTableRow-root.MuiTableRow-head > * {
   font-weight: bold !important;
 }
-
+.Table{
+  width: 98%;
+}
 .Table td,
 th {
   border: none !important;
