@@ -1,4 +1,4 @@
-.MuiTableRow-root > * {
+/*.MuiTableRow-root > * {
   padding: 10px;
 }
 
@@ -6,7 +6,9 @@
   font-weight: bold !important;
 }
 .Table{
-  width: 98%;
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1rem;
 }
 .Table td,
 th {
@@ -25,19 +27,77 @@ th {
   color: #00b5ff !important;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
+
+  .Table h3 {
+    margin-left: 0.5rem;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px;
+  }
+
+  .MuiTableContainer-root {
+    margin-left: 0;
+    width: 100%;
+  }
+}*/
+/*@media screen and (max-width: 768px) {
   .Table{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 23rem;
+    overflow-x: scroll;
   }
-}
-
+}*/
+/*
 @media screen and (max-width: 1200px) {
   .Table{
     width: 100%;
     overflow: none;
+  }
+}*/
+
+/* Table.css */
+
+/* Ensure the table is scrollable horizontally on smaller screens */
+.Table {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+/* Table container should take full width */
+.MuiTableContainer-root {
+  width: 100%;
+
+}
+
+/* Table should not shrink below its minimum width */
+.MuiTable-root {
+  min-width: 650px; /* Set to your desired minimum width */
+
+}
+
+/* Optional: Adjust padding/margins for smaller screens */
+@media (max-width: 600px) {
+  .Table{
+    width: 70%;
+    overflow-x: hidden;
+  }
+  .Table h3 {
+    margin-left: 0.5rem;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px;
+  }
+
+  .MuiTableContainer-root {
+    margin-left: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }

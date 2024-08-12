@@ -38,7 +38,7 @@ function CompactCard({ param, setExpanded }) {
         <span>{param.title}</span>
         <p>${param.value}</p>
       </div>
-      <div style={{marginLeft: "4rem"}}><Png size={40}/></div>
+      <div className="png"><Png size={40}/></div>
 
     </motion.div>
   );

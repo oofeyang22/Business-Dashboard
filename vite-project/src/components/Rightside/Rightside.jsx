@@ -12,8 +12,8 @@ const Rightside = () => {
             <Summary/>
         </div>
         <div>
-            <h3>Activity<span className="left">See All</span></h3>
-            <p style={{fontSize: "14px"}}>Activity in the last two weeks.</p>
+            <h3 className='shift'>Activity<span className="left">See All</span></h3>
+            <p style={{fontSize: "14px"}} className='duration'>Activity in the last two weeks.</p>
 
             <Activity/>
         </div>

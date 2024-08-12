@@ -37,10 +37,10 @@ const Boxes = () => {
             </div>
             <div className="group2">
                 <div className="box3">
-                    <div><p style= {{fontWeight: "bold"}}>Upgrade to pro</p></div>
+                    <div className="pro"><p style= {{fontWeight: "bold"}}>Upgrade to pro</p></div>
 
                     <div className="img3"><IoBagSharp size={140} color="red"/></div>
-                    <div>
+                    <div className="goods">
                         <p style={{fontWeight: "BOLD"}}>$29 p/m</p>
                         <p>100% insurance for<br/> your goods</p>
                     </div>

@@ -43,3 +43,18 @@
 .chartContainer {
   width: 70%;
 }
+.png{
+  margin-left: 4rem;
+}
+
+@media screen and (max-width:768px) {
+  .CompactCard{
+    width: 100%;
+  }
+  .png{
+    margin-left: 4rem;
+  }
+  .ExpandedCard{
+    left: 8rem;
+  }
+}

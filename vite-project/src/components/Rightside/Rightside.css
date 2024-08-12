@@ -15,3 +15,15 @@
     font-size: 12px;
     color: rgb(53, 53, 206);
 }
+
+@media screen and (max-width: 768px) {
+    .Rightside{
+        margin-left: 3rem;
+    }
+    .shift{
+        margin-left: 1rem;
+    }
+    .duration{
+        margin-left: 1rem;
+    }
+}
