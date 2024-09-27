@@ -10,23 +10,23 @@ const Activity = () => {
     <div className='Activity'>
 
       <div className='horizon'>
-        <div className='image'><CiMoneyBill size={20}/></div>
+        <div className='image'><CiMoneyBill size={25} color="white"/></div>
         <div >
           <p>Withdraw Earning</p>
           <p>12:40AM</p>
         </div>
         <div><p>$4,120</p></div>
       </div>
-      <div className='horizon2'>
-        <div className='image'><RiBillLine size={20}/></div>
+      <div className='horizon'>
+        <div className='image'><RiBillLine size={25} color="white"/></div>
         <div >
           <p>Paying Website tax</p>
           <p>10:20AM</p>
         </div>
         <div><p>$800</p></div>
       </div>
-      <div className='horizon2'>
-        <div className='image'><IoFastFoodOutline size={25}/></div>
+      <div className='horizon'>
+        <div className='image'><IoFastFoodOutline size={25} color="white"/></div>
         <div >
           <p>Fast Food Order</p>
           <p>10:20AM</p>

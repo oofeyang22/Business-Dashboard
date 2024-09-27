@@ -1,24 +1,21 @@
 .Activity{
     display: flex;
     flex-direction: column;
-    margin-left: -2rem;
+    margin-left: -2.2rem;
 
 }
 
 .horizon{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
 
 
 
 }
 
-.horizon2{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
+
 
 .image{
     background: purple;

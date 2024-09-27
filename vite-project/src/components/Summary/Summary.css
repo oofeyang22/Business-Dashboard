@@ -6,6 +6,10 @@
     width: 80%;
     padding: 0.3rem;
     margin-bottom: 1.6rem;
+    cursor: pointer;
+}
+.Summary:hover{
+    box-shadow: 0 0 10px #777777
 }
 .span{
     display: flex;
